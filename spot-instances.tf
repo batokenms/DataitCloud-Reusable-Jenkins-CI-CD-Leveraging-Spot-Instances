@@ -31,7 +31,7 @@ resource "aws_spot_instance_request" "ansible-host-instance" {
   }
 }
 
-# Jenkins Instance
+# Jenkins Controll
 resource "aws_spot_instance_request" "jenkins-instance" {
   ami             = data.aws_ami.ubuntu_server.id
   instance_type   = "t2.small"
