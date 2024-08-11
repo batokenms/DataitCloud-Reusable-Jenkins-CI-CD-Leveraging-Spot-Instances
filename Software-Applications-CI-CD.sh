@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update and upgrade the system
-sudo apt-get update -y
+sudo apt-get update 
 sudo apt-get upgrade -y
 
 # Install Apache, MariaDB, and PHP
